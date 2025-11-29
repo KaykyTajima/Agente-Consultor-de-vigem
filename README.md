@@ -54,11 +54,14 @@ O diferencial deste projeto é o uso de **Busca Semântica** em uma base de dado
     * `COHERE_API_KEY` (Para os Embeddings)
 4.  Execute o notebook `Agente_de_Viagens_Voyager.ipynb`.
 
-## 🔮 Próximos Passos e Melhorias
+##  Melhorias Futuras
 
-* Expandir a base de dados para cobrir mais países.
-* Implementar deploy da aplicação usando Streamlit ou FastAPI.
-* Adicionar persistência de histórico de chat em banco de dados.
+📚 Base de Dados Dinâmica: Substituir cargas manuais de dados por conexões via API, aumentando a precisão de orçamentos e detalhes de acomodação.
+
+💎 Modelo de Embeddings Premium: Adoção de planos pagos (OpenAI ou Cohere Production) para processar um corpus de dados mais extenso e melhorar a qualidade da busca semântica.
+
+☁️ Deploy e Acessibilidade: Publicação do agente em servidor dedicado, tornando-o acessível via interface web para usuários finais.
+
+🔄 Pipeline de Sazonalidade: Sistema de atualização automática para capturar flutuações de preços (passagens/hotéis) baseadas na época do ano.
 
 ---
-**Autor:** [Seu Nome]
