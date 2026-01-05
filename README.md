@@ -39,6 +39,14 @@ O diferencial deste projeto é o uso de **Busca Semântica** em uma base de dado
 4.  **Indexação:** Armazenamento dos vetores no FAISS para recuperação rápida.
 5.  **Geração:** O modelo Gemini recebe a pergunta do usuário + o contexto recuperado do banco vetorial para gerar a resposta final.
 
+## 💾 Dados do Projeto
+
+Para executar o notebook e popular a base vetorial, é necessário fazer o download dos datasets (CSV/Excel) utilizados no projeto.
+
+👉 **[Acesse os arquivos no Google Drive](https://drive.google.com/drive/folders/1liP5cpIc05KX1nmiEWx_JqazqrdDqF1e)**
+
+*Certifique-se de colocar os arquivos na mesma pasta do notebook ou atualizar os caminhos de leitura.*
+
 ## 📦 Como Executar
 
 1.  Clone o repositório:
@@ -54,14 +62,11 @@ O diferencial deste projeto é o uso de **Busca Semântica** em uma base de dado
     * `COHERE_API_KEY` (Para os Embeddings)
 4.  Execute o notebook `Agente_de_Viagens_Voyager.ipynb`.
 
-##  Melhorias Futuras
+## 🔮 Melhorias Futuras
 
-📚 Base de Dados Dinâmica: Substituir cargas manuais de dados por conexões via API, aumentando a precisão de orçamentos e detalhes de acomodação.
-
-💎 Modelo de Embeddings Premium: Adoção de planos pagos (OpenAI ou Cohere Production) para processar um corpus de dados mais extenso e melhorar a qualidade da busca semântica.
-
-☁️ Deploy e Acessibilidade: Publicação do agente em servidor dedicado, tornando-o acessível via interface web para usuários finais.
-
-🔄 Pipeline de Sazonalidade: Sistema de atualização automática para capturar flutuações de preços (passagens/hotéis) baseadas na época do ano.
+* **📚 Base de Dados Dinâmica:** Substituir cargas manuais de dados por conexões via API, aumentando a precisão de orçamentos e detalhes de acomodação.
+* **💎 Modelo de Embeddings Premium:** Adoção de planos pagos (OpenAI ou Cohere Production) para processar um corpus de dados mais extenso e melhorar a qualidade da busca semântica.
+* **☁️ Deploy e Acessibilidade:** Publicação do agente em servidor dedicado, tornando-o acessível via interface web para usuários finais.
+* **🔄 Pipeline de Sazonalidade:** Sistema de atualização automática para capturar flutuações de preços (passagens/hotéis) baseadas na época do ano.
 
 ---
